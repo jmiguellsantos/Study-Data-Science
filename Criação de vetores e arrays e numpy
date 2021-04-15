@@ -1,0 +1,75 @@
+import numpy as np
+  
+
+minha_lista = [1,2,3]
+
+minha_lista1 = [4,5,6]
+
+
+minha_lista2 = [7,8,9]
+
+minha_lista
+
+minha_lista1
+
+minha_lista2
+
+minha_matriz = [minha_lista, minha_lista1 , minha_lista2]
+
+minha_matriz
+
+np.array(minha_matriz)
+
+np.arange(0, 10)
+
+np.arange(0, 10, 2)
+
+np.zeros(3)
+
+arr = np.zeros(3)
+
+arr
+
+arr = np.zeros((5, 5))
+
+arr
+
+
+np.ones((3,3))
+
+np.eye(4)
+
+np.linspace(0, 10, 2)
+
+np.linspace(0, 10, 3)
+
+np.random.rand(5)
+
+np.random.rand(5) * 100
+
+np.random.randn(5, 4, 3)
+
+np.random.randint(0, 100 ,10)
+
+np.random.rand(5) * 100
+
+np.round(np.random.rand(5)*100,0)
+
+arr = np.random.rand(25)
+
+arr
+
+arr.reshape((5,5))
+
+arr
+
+arr.shape
+
+arr.max() #maior valor
+
+arr.min()#menor valor
+
+arr.argmax()#o indice em que o maior valor se encontra
+
+
+arr.argmin()#o indicie que o menor valor se encontra
